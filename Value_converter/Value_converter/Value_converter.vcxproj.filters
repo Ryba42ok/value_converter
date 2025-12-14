@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\numeral_system">
+      <UniqueIdentifier>{2f72c62c-b486-49ca-8c73-39bba5a47848}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\numeral_system_h">
+      <UniqueIdentifier>{53924561-8e45-4b1b-ae28-173aff1b82fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\money_">
+      <UniqueIdentifier>{ef768e47-a4dc-45da-bcd5-1a0f045dcda2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\money_h">
+      <UniqueIdentifier>{7ebc824a-49f3-400e-b40e-807318d2bac8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="nume_syst_toDec.cpp">
+      <Filter>Source Files\numeral_system</Filter>
+    </ClCompile>
+    <ClCompile Include="numeral_system.cpp">
+      <Filter>Source Files\numeral_system</Filter>
+    </ClCompile>
+    <ClCompile Include="serch_non_zero_el.cpp">
+      <Filter>Source Files\numeral_system</Filter>
+    </ClCompile>
+    <ClCompile Include="num_system_toDec.h">
+      <Filter>Header Files\numeral_system_h</Filter>
+    </ClCompile>
+    <ClCompile Include="Value_converter.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="money_conv.cpp">
+      <Filter>Source Files\money_</Filter>
+    </ClCompile>
+    <ClCompile Include="to_the_usd_like.cpp">
+      <Filter>Source Files\money_</Filter>
+    </ClCompile>
+    <ClCompile Include="found_result.cpp">
+      <Filter>Source Files\money_</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="numeral_system.h">
+      <Filter>Header Files\numeral_system_h</Filter>
+    </ClInclude>
+    <ClInclude Include="money_conv.h">
+      <Filter>Header Files\money_h</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
