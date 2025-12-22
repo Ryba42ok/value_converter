@@ -123,6 +123,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\found_result_length.cpp" />
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\found_result_pressure.cpp" />
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\length_conv.cpp" />
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\pressure_conv.cpp" />
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\to_the_m_like.cpp" />
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\to_the_Pa_like.cpp" />
     <ClCompile Include="found_result.cpp" />
     <ClCompile Include="money_conv.cpp" />
     <ClCompile Include="numeral_system.cpp" />
@@ -132,6 +138,8 @@
     <ClCompile Include="Value_converter.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\length_conv.h" />
+    <ClInclude Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\pressure_conv.h" />
     <ClInclude Include="header.h" />
     <ClInclude Include="money_conv.h" />
     <ClInclude Include="numeral_system.h" />

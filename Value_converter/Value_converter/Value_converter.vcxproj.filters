@@ -25,6 +25,18 @@
     <Filter Include="Header Files\money_h">
       <UniqueIdentifier>{7ebc824a-49f3-400e-b40e-807318d2bac8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\length_">
+      <UniqueIdentifier>{ca6f7236-03ea-4224-986f-6f5247a0eca7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\length_h">
+      <UniqueIdentifier>{f454b85c-5cb5-46cc-86d7-1b5793f9f734}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\pressure_h">
+      <UniqueIdentifier>{5e4657ca-1dca-4b94-bae8-13b770ce093f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\pressure_">
+      <UniqueIdentifier>{5c9318f1-8618-4085-81d6-9462b208ce08}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nume_syst_toDec.cpp">
@@ -48,6 +60,24 @@
     <ClCompile Include="found_result.cpp">
       <Filter>Source Files\money_</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\length_conv.cpp">
+      <Filter>Source Files\length_</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\found_result_length.cpp">
+      <Filter>Source Files\length_</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\to_the_m_like.cpp">
+      <Filter>Source Files\length_</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\found_result_pressure.cpp">
+      <Filter>Source Files\pressure_</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\to_the_Pa_like.cpp">
+      <Filter>Source Files\pressure_</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\pressure_conv.cpp">
+      <Filter>Source Files\pressure_</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -58,6 +88,12 @@
     </ClInclude>
     <ClInclude Include="money_conv.h">
       <Filter>Header Files\money_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\length_conv.h">
+      <Filter>Header Files\length_h</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\..\My repo\value_converter-pressure-lenth-\pressure_lenth\pressure_conv.h">
+      <Filter>Header Files\pressure_h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

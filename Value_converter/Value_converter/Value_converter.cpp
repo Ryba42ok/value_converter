@@ -44,6 +44,7 @@ int main()
 
 	case 2:
 	{
+		length_conv();
 		break;
 	}
 
@@ -74,6 +75,7 @@ int main()
 
 	case 8:
 	{
+		pressure_conv();
 		break;
 	}
 
