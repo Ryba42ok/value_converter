@@ -44,6 +44,7 @@ int main()
 
 	case 2:
 	{
+		length_conv();
 		break;
 	}
 
@@ -74,6 +75,7 @@ int main()
 
 	case 8:
 	{
+		pressure_conv();
 		break;
 	}
 
@@ -108,13 +110,16 @@ int main()
 	switch (choose)
 	{
 	case 1: break;
+
 	case 2: repeat = false; break;
-	default: {
+
+	default: 
+	{
 		cout << "\nОшибка ввода\n\n";
 		break;
 	}
 	}
-	
+
 	}
 
 	system("pause");
