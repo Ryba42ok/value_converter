@@ -1,34 +1,7 @@
-<<<<<<< HEAD
 ﻿  Value_converter.cpp
+  money_conv.cpp
+  numeral_system.cpp
+D:\Programs\VisualStudio\Progects\C++\Наркевич\09 - Лаб Раб 12 СОВМЕСТНЫЙ ПРОЕКТ\General repo\value_converter\Value_converter\Value_converter\numeral_system.cpp(10,23): warning C4101: start_value: неиспользованная локальная переменная
+  serch_non_zero_el.cpp
+  Создание кода...
   Value_converter.vcxproj -> D:\Programs\VisualStudio\Progects\C++\Наркевич\09 - Лаб Раб 12 СОВМЕСТНЫЙ ПРОЕКТ\General repo\value_converter\Value_converter\x64\Debug\Value_converter.exe
-=======
-﻿Build started 21.12.2025 23:38:32.
-Logging verbosity is set to: Normal.     1>Project "G:\study\Лабораторные работы\Основы ПИ\ЛАБА 12 ПРОЕКТ\Value_converter\Value_converter\Value_converter.vcxproj" on node 2 (Build target(s)).
-     1>PrepareForBuild:
-         Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-       InitializeBuildStatus:
-         Creating "x64\Debug\Value_converter.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
-         Touching "x64\Debug\Value_converter.tlog\unsuccessfulbuild".
-       ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt money_conv.cpp
-         money_conv.cpp
-       Link:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\study\Лабораторные работы\Основы ПИ\ЛАБА 12 ПРОЕКТ\Value_converter\x64\Debug\Value_converter.exe" /INCREMENTAL /ILK:"x64\Debug\Value_converter.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\study\Лабораторные работы\Основы ПИ\ЛАБА 12 ПРОЕКТ\Value_converter\x64\Debug\Value_converter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\study\Лабораторные работы\Основы ПИ\ЛАБА 12 ПРОЕКТ\Value_converter\x64\Debug\Value_converter.lib" /MACHINE:X64 x64\Debug\found_result.obj
-         x64\Debug\money_conv.obj
-         x64\Debug\numeral_system.obj
-         x64\Debug\nume_syst_toDec.obj
-         x64\Debug\serch_non_zero_el.obj
-         x64\Debug\to_the_usd_like.obj
-         x64\Debug\Value_converter.obj
-         Value_converter.vcxproj -> G:\study\Лабораторные работы\Основы ПИ\ЛАБА 12 ПРОЕКТ\Value_converter\x64\Debug\Value_converter.exe
-       FinalizeBuildStatus:
-         Deleting file "x64\Debug\Value_converter.tlog\unsuccessfulbuild".
-         Touching "x64\Debug\Value_converter.tlog\Value_converter.lastbuildstate".
-     1>Done Building Project "G:\study\Лабораторные работы\Основы ПИ\ЛАБА 12 ПРОЕКТ\Value_converter\Value_converter\Value_converter.vcxproj" (Build target(s)).
-
-Build succeeded.
-    0 Warning(s)
-    0 Error(s)
-
-Time Elapsed 00:00:01.78
->>>>>>> 17efb8e0077a89ed01241cf921ee9d9f51b36125
