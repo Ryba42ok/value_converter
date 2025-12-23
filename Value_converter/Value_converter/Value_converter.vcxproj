@@ -132,10 +132,12 @@
     <ClCompile Include="nume_syst_toDec.cpp" />
     <ClCompile Include="pressure_conv.cpp" />
     <ClCompile Include="serch_non_zero_el.cpp" />
+    <ClCompile Include="temperature.cpp" />
     <ClCompile Include="to_the_m_like.cpp" />
     <ClCompile Include="to_the_Pa_like.cpp" />
     <ClCompile Include="to_the_usd_like.cpp" />
     <ClCompile Include="Value_converter.cpp" />
+    <ClCompile Include="volume.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h" />
@@ -143,6 +145,8 @@
     <ClInclude Include="money_conv.h" />
     <ClInclude Include="numeral_system.h" />
     <ClInclude Include="pressure_conv.h" />
+    <ClInclude Include="temperature.h" />
+    <ClInclude Include="volume.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

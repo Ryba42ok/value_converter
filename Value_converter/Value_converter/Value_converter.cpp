@@ -55,6 +55,7 @@ int main()
 
 	case 4:
 	{
+		volcalculation();
 		break;
 	}
 
@@ -65,6 +66,7 @@ int main()
 
 	case 6:
 	{
+		tempcalculation();
 		break;
 	}
 

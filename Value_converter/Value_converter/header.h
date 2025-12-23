@@ -15,3 +15,6 @@ double search_res_length(double, double);
 void pressure_conv();
 double to_the_Pa(double, double);
 double search_res_pressure(double, double);
+
+int tempcalculation();
+int volcalculation();

@@ -37,6 +37,18 @@
     <Filter Include="Source Files\pressure_">
       <UniqueIdentifier>{5c9318f1-8618-4085-81d6-9462b208ce08}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Header Files\temperature.h">
+      <UniqueIdentifier>{d9c84ecf-bb25-4963-a330-e100fc251d51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\volume.h">
+      <UniqueIdentifier>{6711940f-fd0f-4458-8319-63ebaddbec5c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\temperature_">
+      <UniqueIdentifier>{aaf2ffba-103e-49fc-a5bb-b0ecb76395a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\volume_">
+      <UniqueIdentifier>{3656c01e-33c8-4aea-a94e-6b49df6b507f}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nume_syst_toDec.cpp">
@@ -78,6 +90,12 @@
     <ClCompile Include="to_the_Pa_like.cpp">
       <Filter>Source Files\pressure_</Filter>
     </ClCompile>
+    <ClCompile Include="volume.cpp">
+      <Filter>Source Files\volume_</Filter>
+    </ClCompile>
+    <ClCompile Include="temperature.cpp">
+      <Filter>Source Files\temperature_</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -94,6 +112,12 @@
     </ClInclude>
     <ClInclude Include="pressure_conv.h">
       <Filter>Header Files\pressure_h</Filter>
+    </ClInclude>
+    <ClInclude Include="volume.h">
+      <Filter>Header Files\volume.h</Filter>
+    </ClInclude>
+    <ClInclude Include="temperature.h">
+      <Filter>Header Files\temperature.h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
