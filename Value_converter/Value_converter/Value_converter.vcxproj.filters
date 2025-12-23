@@ -37,6 +37,15 @@
     <Filter Include="Source Files\pressure_">
       <UniqueIdentifier>{5c9318f1-8618-4085-81d6-9462b208ce08}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\area_">
+      <UniqueIdentifier>{f3178834-e362-4c24-90b0-74af2a283818}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\area_h">
+      <UniqueIdentifier>{b85f473a-a450-4e8c-b0bc-78cf25d27cdb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\speed_h">
+      <UniqueIdentifier>{1d37c07b-3350-4b60-91fc-2e30afcec917}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nume_syst_toDec.cpp">
@@ -78,6 +87,12 @@
     <ClCompile Include="to_the_Pa_like.cpp">
       <Filter>Source Files\pressure_</Filter>
     </ClCompile>
+    <ClCompile Include="Area_conv.cpp">
+      <Filter>Source Files\area_</Filter>
+    </ClCompile>
+    <ClCompile Include="Speed_conv.cpp">
+      <Filter>Source Files\area_</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
@@ -94,6 +109,12 @@
     </ClInclude>
     <ClInclude Include="pressure_conv.h">
       <Filter>Header Files\pressure_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Area_conv.h">
+      <Filter>Header Files\area_h</Filter>
+    </ClInclude>
+    <ClInclude Include="Speed_conv.h">
+      <Filter>Header Files\speed_h</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
