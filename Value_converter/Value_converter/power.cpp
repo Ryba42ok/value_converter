@@ -21,6 +21,8 @@ void Power_conv()
         cin >> k;
         cout << "Введите значение: ";
         cin >> power;
+        cin.clear();
+        cin.ignore();
         if (power <= 0)
         {
             cout << "Мощность не должна быть отрицательной или равна 0";

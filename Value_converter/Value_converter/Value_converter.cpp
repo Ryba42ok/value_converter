@@ -109,7 +109,7 @@ int main()
 
 	}
 	cout << "\n\n";
-	cout << "Хотите ли вы ещё раз воспользоваться программой\n1 - Да \n2 - Нет\n\n"; cin >> choose;
+	cout << "Хотите ли вы ещё раз воспользоваться программой\n1 - Да \n2 - Нет\n\n"; cin >> choose;  cin.clear(); cin.ignore();
 	switch (choose)
 	{
 	case 1: break;

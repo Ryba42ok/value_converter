@@ -70,6 +70,9 @@
     <Filter Include="Source Files\temperature">
       <UniqueIdentifier>{e94d1ea6-a84e-4d74-812d-1429973aad1a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\speed">
+      <UniqueIdentifier>{6ae0ea98-70e9-41e9-9f5c-1166d8416d79}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="nume_syst_toDec.cpp">
@@ -114,9 +117,6 @@
     <ClCompile Include="Area_conv.cpp">
       <Filter>Source Files\area_</Filter>
     </ClCompile>
-    <ClCompile Include="Speed_conv.cpp">
-      <Filter>Source Files\area_</Filter>
-    </ClCompile>
     <ClCompile Include="weight.cpp">
       <Filter>Source Files\weight</Filter>
     </ClCompile>
@@ -128,6 +128,9 @@
     </ClCompile>
     <ClCompile Include="temperature.cpp">
       <Filter>Source Files\temperature</Filter>
+    </ClCompile>
+    <ClCompile Include="Speed_conv.cpp">
+      <Filter>Source Files\speed</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
