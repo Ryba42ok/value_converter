@@ -23,6 +23,8 @@ void Weight_conv()
         cout << "1 - Килограммы (кг),2 - Граммы (г),3 - Тонны (т),4 - Фунты (lb)\n";
         cout << "Выберите исходную единицу: \n";
         cin >> k;
+        cin.clear();
+        cin.ignore();
         cout << "Введите значение массы: ";
         cin >> weight;
         if (weight <= 0)

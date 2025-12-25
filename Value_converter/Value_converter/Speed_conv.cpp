@@ -25,6 +25,8 @@ void Speed_conv() {
         cout << "3 - Узлы (kn)\n";
         cout << "4 - Число Маха (M)\n";
         cin >> k;
+        cin.clear();
+        cin.ignore();
 
         if (k < 1 || k > 4) { cout << "Ошибка ввода\n"; break; }
 

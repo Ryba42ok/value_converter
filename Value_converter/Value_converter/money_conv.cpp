@@ -127,6 +127,8 @@ void money_conv()
 		cout << "6 - Японская иена JPY \n";
 		cout << "7 - Канадский доллар CAD \n\n";
 		cin >> k;
+		cin.clear();
+		cin.ignore();
 		switch (k)
 		{
 		case 1:
