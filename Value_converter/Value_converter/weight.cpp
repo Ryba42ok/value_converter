@@ -20,11 +20,18 @@ void Weight_conv()
         bool error = false;
 
         cout << "\n--- КОНВЕРТЕР МАССЫ ---\n";
-        cout << "1 - Килограммы (кг),2 - Граммы (г),3 - Тонны (т),4 - Фунты (lb)\n";
+        cout << "1 - Килограммы (кг)\n";
+        cout << "2 - Граммы (г)\n";
+        cout << "3 - Тонны (т)\n";
+        cout << "4 - Фунты (lb)\n";
+        cout << "5 - Выход\n";
         cout << "Выберите исходную единицу: \n";
         cin >> k;
         cin.clear();
         cin.ignore();
+        if (k == 5) {
+            repeat = false; continue; break;
+        }
         cout << "Введите значение массы: ";
         cin >> weight;
         if (weight <= 0)
@@ -44,7 +51,7 @@ void Weight_conv()
 
         if (!error)
         {
-            cout << "\nВ какую перевести?(1 - Килограммы,2 - Граммы,3 - Тонны,4 - Фунты\n";
+            cout << "\nВ какую перевести?\n1 - Килограммы\n2 - Граммы\n3 - Тонны\n4 - Фунты\n";
             cin >> k;
             cin.clear();
             cin.ignore();

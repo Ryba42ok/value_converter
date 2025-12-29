@@ -16,9 +16,19 @@ void Power_conv()
         bool error = false;
 
         cout << "\n---  ќЌ¬≈–“≈– ћќўЌќ—“» ---\n";
-        cout << "1 - ¬атты (¬т), 2 - Ћошадиные силы (hp), 3 - BTU/ч, 4 - Ёрг/с\n";
+        cout << "1 - ¬атты (¬т)\n";
+        cout << "2 - Ћошадиные силы (hp)\n";
+        cout << "3 - BTU/ч\n";
+        cout << "4 - Ёрг/с\n\n";
+        cout << "5 - ¬ыход\n";
         cout << "¬ыберите исходную единицу: ";
         cin >> k;
+        cin.clear();
+        cin.ignore();
+
+        if (k == 5) {
+            repeat = false; continue; break;
+        }
         cout << "¬ведите значение: ";
         cin >> power;
         cin.clear();
@@ -34,11 +44,13 @@ void Power_conv()
         case 2: to_standard = power / HP; break;
         case 3: to_standard = power / BTU_H; break;
         case 4: to_standard = power / ERG_S; break;
+       
+
         default: error = true; break;
         }
 
         if (!error) {
-            cout << "¬ какую перевести? (1-¬т, 2-hp, 3-BTU/ч, 4-Ёрг/с): ";
+            cout << "¬ какую перевести?\n1-¬т\n2-hp\n3-BTU/ч\n4-Ёрг/с: ";
             cin >> k;
             cin.clear();
             cin.ignore();
