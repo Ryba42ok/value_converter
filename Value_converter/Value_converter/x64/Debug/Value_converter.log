@@ -1,4 +1,4 @@
-﻿Build started 27.12.2025 20:15:25.
+﻿Build started 29.12.2025 20:08:15.
 Logging verbosity is set to: Normal.     1>Project "G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\Value_converter.vcxproj" on node 2 (Build target(s)).
      1>PrepareForBuild:
          Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
@@ -6,12 +6,24 @@ Logging verbosity is set to: Normal.     1>Project "G:\study\Лаборатор�
          Creating "x64\Debug\Value_converter.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
          Touching "x64\Debug\Value_converter.tlog\unsuccessfulbuild".
        ClCompile:
-         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt Speed_conv.cpp money_conv.cpp numeral_system.cpp
-         Speed_conv.cpp
-         money_conv.cpp
-         numeral_system.cpp
-     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\numeral_system.cpp(10,23): warning C4101: 'start_value': unreferenced local variable
+         C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\CL.exe /c /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt temperature.cpp volume.cpp
+         temperature.cpp
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(61,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(64,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(74,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(80,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(91,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(94,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         volume.cpp
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(68,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(87,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(107,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(118,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(121,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(124,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
          Generating Code...
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(157,1): warning C4715: 'volcalculation': not all control paths return a value
+     1>G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(125,1): warning C4715: 'tempcalculation': not all control paths return a value
        Link:
          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\x64\Debug\Value_converter.exe" /INCREMENTAL /ILK:"x64\Debug\Value_converter.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\x64\Debug\Value_converter.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\x64\Debug\Value_converter.lib" /MACHINE:X64 x64\Debug\Area_conv.obj
          x64\Debug\found_result.obj
@@ -32,6 +44,7 @@ Logging verbosity is set to: Normal.     1>Project "G:\study\Лаборатор�
          x64\Debug\Value_converter.obj
          x64\Debug\volume.obj
          x64\Debug\weight.obj
+         LINK : G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\x64\Debug\Value_converter.exe not found or not built by the last incremental link; performing full link
          Value_converter.vcxproj -> G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\x64\Debug\Value_converter.exe
        FinalizeBuildStatus:
          Deleting file "x64\Debug\Value_converter.tlog\unsuccessfulbuild".
@@ -42,9 +55,22 @@ Build succeeded.
 
        "G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\Value_converter.vcxproj" (Build target) (1) ->
        (ClCompile target) -> 
-         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\numeral_system.cpp(10,23): warning C4101: 'start_value': unreferenced local variable
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(61,40): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(64,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(74,39): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(80,47): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(91,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(94,51): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(68,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(87,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(107,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(118,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(121,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(124,32): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\volume.cpp(157,1): warning C4715: 'volcalculation': not all control paths return a value
+         G:\study\Лабораторные работы\12 проект\value_converter\Value_converter\Value_converter\temperature.cpp(125,1): warning C4715: 'tempcalculation': not all control paths return a value
 
-    1 Warning(s)
+    14 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:03.54
+Time Elapsed 00:00:01.30
